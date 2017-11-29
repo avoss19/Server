@@ -46,7 +46,7 @@ also add a README.md file to your subdirectory.
 
 Please help come up with domain names for this project. They could be for the
 whole project or just your personal site for a portfolio. Also please keep in mind
-the price of domains when adding them to the Domains.md file.
+the price of domains when adding them to the ["Project Server"](https://docs.google.com/a/bsmschool.org/document/d/1S63kz76LwH6myIa1ZFr9ke0ffGmM9-l23Eje8NGkuAg/edit?usp=sharing) google doc. 
 
 ## Authors
 
