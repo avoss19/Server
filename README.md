@@ -39,12 +39,13 @@ like to push to master please contact the head of the project, Voss.
 ## Orginization
 
 All folders in the root of this repository should be a domain name or a domain
-idea. Also the main page of each domain should be labeled **index.html**.
+idea. Also the main page of each domain should be labeled **index.html**. Please
+also add a README.md file to your subdirectory.
 
 ## Domains
 
 Please help come up with domain names for this project. They could be for the
-whole project or just your personal site for a portfolio. Also please keep in mind 
+whole project or just your personal site for a portfolio. Also please keep in mind
 the price of domains when adding them to the Domains.md file.
 
 ## Authors
