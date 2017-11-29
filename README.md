@@ -52,7 +52,7 @@ the price of domains when adding them to the ["Project Server"](https://docs.goo
 
 * **Andrew Voss** - *Public Repositories* - [avoss19](https://github.com/avoss19)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](contributors) who participated in this project.
 
 ## License
 
