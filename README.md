@@ -11,13 +11,13 @@ repository please contact Voss.
 
 To get started on working on this repository first clone it with the command:
 ```
-Git clone https://gitlab.com/voss1167/Server.git
+Git clone https://git@github.com:avoss19/Server.git
 ```
 cd the directory:
 ```
 cd Server
 ```
-Create your own branch (name it your gitlabs username or full name):
+Create your own branch (name it your github username or full name):
 ```
 Git branch [branch title]
 ```
@@ -32,7 +32,7 @@ Please review one of these guides or google one if you do on know how to use git
 ## Deployment
 
 If your html is finished and ready to be posted online, please request a merge<br />
-to master. Also place your files in a folder called your gitlabs username or <br />
+to master. Also place your files in a folder called your github username or <br />
 full name. Also please **DO NOT PUSH TO MASTER WITHOUT PERMISION**. If you would<br />
 like to push to master please contact the head of the project, Voss.
 
