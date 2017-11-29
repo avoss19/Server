@@ -11,7 +11,7 @@ repository please contact Voss.
 
 To get started on working on this repository first clone it with the command:
 ```
-Git clone https://github.com/avoss19/Server
+git clone https://github.com/avoss19/Server
 ```
 cd the directory:
 ```
@@ -19,11 +19,11 @@ cd Server
 ```
 Create your own branch (name it your github username or full name):
 ```
-Git branch [branch title]
+git branch [branch title]
 ```
 Then finally start working on your branch:
 ```
-Git checkout [branch title]
+git checkout [branch title]
 ```
 Please review one of these guides or google one if you do on know how to use git:
 <br />http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
