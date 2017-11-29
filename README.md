@@ -11,7 +11,7 @@ repository please contact Voss.
 
 To get started on working on this repository first clone it with the command:
 ```
-Git clone https://git@github.com:avoss19/Server.git
+Git clone https://github.com/avoss19/Server
 ```
 cd the directory:
 ```
