@@ -1,6 +1,6 @@
 # andrewvoss.org
 
-This is the subdirectory for Voss's ["andrewvoss.org"](andrewvoss.org)
+This is the subdirectory for Voss's [andrewvoss.org](http://andrewvoss.org)
 source code. This website is for Voss's portfolio and is hosted by 
 Andrew Voss's server. The majority of the html was found on 
 https://www.w3schools.com/. I would recommend checking their 
