@@ -27,6 +27,12 @@ Please review one of these guides or google one if you do on know how to use git
 <br />http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 <br />https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
+## Ease of Updating Sites
+
+The most current version of the sites hosted will be this repository's "master" branch.
+This is accomplished by a script on the server that pulls the master branch every 10
+minutes.
+
 ## Deployment
 
 If your html is finished and ready to be posted online, please request a merge
