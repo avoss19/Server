@@ -1,8 +1,8 @@
 # Server
 
 This repository is for students at Benilde-St.Margaret's school who want to be
-involved in the server project. The server will be hosted by Voss, so if it is
-down please contract Voss. If you think someone should be added to this
+involved in the server project. The server is hosted by Andrew Voss, so if it is
+down please contract him. If you think someone should be added to this
 repository please contact Voss.
 
 ## Getting Started
