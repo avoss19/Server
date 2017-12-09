@@ -23,7 +23,7 @@ Then finally start working on your branch:
 ```
 git checkout [branch title]
 ```
-Please review one of these guides or google one if you do on know how to use git:
+Please review one of these guides or google one if you do on know how to use git or need a refresher:
 <br />http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 <br />https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
