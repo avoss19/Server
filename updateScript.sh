@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /var/www/Server/
-watch -n 60 ls -l git pull
+watch -n 60 git pull
