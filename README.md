@@ -30,8 +30,8 @@ Please review one of these guides or google one if you do on know how to use git
 ## Ease of Updating Sites
 
 The most current version of the sites hosted will be this repository's "master" branch.
-This is accomplished by a script on the server that pulls the master branch every 10
-minutes.
+This is accomplished the [updateScript](http://avoss19/Server/updateScript.sh) that updates
+the server every minute.
 
 ## Deployment
 
