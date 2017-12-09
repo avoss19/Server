@@ -54,7 +54,7 @@ the price of domains when adding them to the ["Project Server"](https://docs.goo
 
 ## Currently Hosted Domains
 
-["andrewvoss.org"](https://andrewvoss.org)
+[andrewvoss.org](https://andrewvoss.org)
 
 ## Authors
 
