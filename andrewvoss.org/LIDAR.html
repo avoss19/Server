@@ -3,25 +3,64 @@
 <head>
 <title>LIDAR</title>
 <style>
-    body {
-        width: 50em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
+      div.container {
+          width: 80em;
+          margin: 0 auto;
+          border: 1px solid gray;
       }
-    indent {
-        width: 50em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-        text-indent: 3em;
-        line-height: 2.5em;
+      header, footer {
+          padding: 1em;
+          color: white;
+          background-color: black;
+          clear: left;
+          text-align: center;
+      }
+      nav {
+          float: left;
+          max-width: 160px;
+          margin: 0;
+          padding: 1em;
+      }
+      nav ul {
+          list-style-type: none;
+          padding: 0;
+      }
+      nav ul a {
+          text-decoration: none;
+      }
+      article {
+          margin-left: 170px;
+          border-left: 1px solid gray;
+          padding: 1em;
+          overflow: hidden;
+          font-family: Tahoma, Verdana, Arial, sans-serif;
       }
 </style>
 </head>
-<h1>LIDAR</h1>
 <body>
-<img src="pics/LIDAR.jpg" alt="LIDAR" width height="445">
-<indent><p>This page is about my team's contribution to part of BSM's Robot through
-getting the LIDAR sensor to work.</p></indent>
+
+<div class="container">
+
+<header>
+   <h1>LIDAR</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="http://andrewvoss.org">Home</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>LIDAR</h1>
+  <img src="pics/LIDAR.jpg" alt="LIDAR" width height="600">
+  <p>This page is about my team's contribution to part of BSM's Robot through
+  getting the LIDAR sensor to work.</p>
+</article>
+
+<footer>Copyright &copy; AndrewVoss.org</footer>
+
+</div>
 
 </body>
 </html>
