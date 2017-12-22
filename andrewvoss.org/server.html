@@ -3,58 +3,104 @@
 <head>
 <title>Server</title>
 <style>
-    body {
-        width: 50em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-      }
-    indent {
-        width: 50em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-        text-indent: 3em;
-        line-height: 2.5em;
-      }
+div.container {
+    width: 80em;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    text-indent: 3em;
+    line-height: 2.5em;
+}
+
 </style>
 </head>
-<h1>Server</h1>
 <body>
-<img src="pics/Server.png" alt="Server" width height="445">
-<indent><p>This page about a project I started called "Server". You can access the git
-   repository for this project by going to <a href="https://github.com/avoss19/Server" target="_blank">https://github.com/avoss19/Server</a>.
-   This project was created to host websites for Benilde-St. Margaret's students.
-   Currently there are only three students at my school that are involved in the
-   project, but I am looking to expand.
-   </p></indent>
-   <indent><p>I got the idea for this project one day while I was browsing through
-   craigslist and noticed a server for $100. I thought to myself that it would
-   be a great place to start for hosting a domain or service. Then I remembered that
-   my engineering class that I am taking requires us to create a portfolio for our
-   last assignment. I thought that this server would be a great way for my friends
-   and I to host our website without having any restrictions on our customizablity to
-   our site.</p></indent>
-   <indent><p>This was one of my most challanging projects of my junior year in
-   high school. It forced me to learn a plethora of things. Some of the things it
-   force me to learn was html, css, javascript, more bash, how to use server equiment,
-   and about linux. After the purchase of the server my first task was learning some
-   html, css, and javascript for the site that I would be hosting. I learned most of it from a website called
-   <a href="https://w3schools.com" target="_blank">https://w3schools.com</a>. I
-   thought this website was very helpful and thourgh for what I wanted to accomplished,
-   and if the website didn't have what I wanted to learn I would go to
-   <a href="https://stackoverflow.com" target="_blank">https://stackoverflow.com</a>.
-   I also learned some bash for stackoverflow for a script to run on the server
-   updates the website to be live with the "master" branch on my github <a href="https://github.com/avoss19/Server" target="_blank">repository</a>. 
-   Another thing I learned was how to use server equiment. It took hours of trouble
-   shooting to get the server to boot for the first time. The first day of working
-   the server it took 3 hours for me to figure out how to clear the cmos and get
-   the OS (operating system) to recoginize a drive. I finally figured out that I
-   could just change the position of a jumper to clear the cmos and that I had to
-   inilized the hard drive through the raid controller. I thought that inilizing the
-   hard drive through the raid controller was counter intuative due to the hard drive
-   bay being hotswappable. Another thing I learn was the unix permission structure, I
-   had to learn about this to make this project successful becuase I didn't want
-   other students to be able to have control over my network or the entire server.
-   </p></indent>
+
+<div class="container">
+
+<header>
+   <h1>Server</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="http://andrewvoss.org">Home</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>Server</h1>
+  <p>This page about a project I started called "Server". You can access the git
+     repository for this project by going to <a href="https://github.com/avoss19/Server" target="_blank">https://github.com/avoss19/Server</a>.
+     This project was created to host websites for Benilde-St. Margaret's students.
+     Currently there are only three students at my school that are involved in the
+     project, but I am looking to expand.
+     </p>
+     <p>I got the idea for this project one day while I was browsing through
+     craigslist and noticed a server for $100. I thought to myself that it would
+     be a great place to start for hosting a domain or service. Then I remembered that
+     my engineering class that I am taking requires us to create a portfolio for our
+     last assignment. I thought that this server would be a great way for my friends
+     and I to host our website without having any restrictions on our customizablity to
+     our site.</p>
+     <p>This was one of my most challanging projects of my junior year in
+     high school. It forced me to learn a plethora of things. Some of the things it
+     force me to learn was html, css, javascript, more bash, how to use server equiment,
+     and about linux. After the purchase of the server my first task was learning some
+     html, css, and javascript for the site that I would be hosting. I learned most of it from a website called
+     <a href="https://w3schools.com" target="_blank">https://w3schools.com</a>. I
+     thought this website was very helpful and thourgh for what I wanted to accomplished,
+     and if the website didn't have what I wanted to learn I would go to
+     <a href="https://stackoverflow.com" target="_blank">https://stackoverflow.com</a>.
+     I also learned some bash for stackoverflow for a script to run on the server
+     updates the website to be live with the "master" branch on my github <a href="https://github.com/avoss19/Server" target="_blank">repository</a>.
+     Another thing I learned was how to use server equiment. It took hours of trouble
+     shooting to get the server to boot for the first time. The first day of working
+     the server it took 3 hours for me to figure out how to clear the cmos and get
+     the OS (operating system) to recoginize a drive. I finally figured out that I
+     could just change the position of a jumper to clear the cmos and that I had to
+     inilized the hard drive through the raid controller. I thought that inilizing the
+     hard drive through the raid controller was counter intuative due to the hard drive
+     bay being hotswappable. Another thing I learn was the unix permission structure, I
+     had to learn about this to make this project successful becuase I didn't want
+     other students to be able to have control over my network or the entire server.
+   </p>
+</article>
+
+<footer>Copyright &copy; AndrewVoss.org</footer>
+
+</div>
 
 </body>
 </html>
