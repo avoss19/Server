@@ -99,7 +99,10 @@ body, html {
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
       <p>Welcome to my website. This website is to show my work that I am most proud
-      of from high school.</p>
+      of from high school. This site will show case my knowlodge of code, computers,
+      and certian program. I hope this site gives you a good overview of what I am
+      capable of. Also thank you for taking the time to visit my wesbite, I hope
+      you enjoy it!</p>
     </div>
   </div>
 </div>
@@ -142,11 +145,21 @@ body, html {
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/Project-Euler.png" style="width:100%" onclick=redirect2() class="w3-hover-opacity" alt="Project-Euler">
+      <img src="pics/Project-EulerMain.png" style="width:100%" onclick=redirect2() class="w3-hover-opacity" alt="Project-Euler">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/solidWorks.png" style="width:100%" onclick=redirect3() class="w3-hover-opacity" alt="CAD">
+      <img src="pics/solidWorksParts.png" style="width:100%" onclick=redirect3() class="w3-hover-opacity" alt="SolidWorks Parts">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pics/solidworksAssemblies.png" style="width:100%" onclick=redirect6() class="w3-hover-opacity" alt="SolidWorks Assemblies">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="pics/git.png" style="width:100%" onclick=redirect7() class="w3-hover-opacity" alt="Git">
     </div>
   </div>
 </div>
@@ -222,7 +235,7 @@ function redirect2(url){
 }
 
 function redirect3(url){
-  window.open("solidworks.html");
+  window.open("solidworksParts.html");
 }
 
 function redirect4(url){
@@ -231,6 +244,14 @@ function redirect4(url){
 
 function redirect5(url){
   window.open("LIDAR.html");
+}
+
+function redirect6(url){
+  window.open("solidworksAssemblies.html");
+}
+
+function redirect7(url){
+  window.open("git.html");
 }
 
 function onClick(element) {
