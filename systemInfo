@@ -1,4 +1,5 @@
 Server Name: Intel SR2500ALLXR
+OS: Ubuntu Server 16.04
 CPU: 2x Intel Xeon E5410 @ 2.33GHz
 Memory: 32GB of RAM
 GPU: ATI ES1000 (integrated graphics)
