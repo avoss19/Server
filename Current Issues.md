@@ -1,3 +1,3 @@
 # Current Issues
 - Some times an apostrophe (') will appear as (â€™) the current solution is
-changing it to the hex code which is <td>&#x27;</td>
+changing it to the hex code which is <![CDATA[&#x27;]]>
