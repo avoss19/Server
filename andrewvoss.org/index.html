@@ -157,15 +157,26 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="pics/Server.png" style="width:100%" onclick=redirect1() class="w3-hover-opacity" alt="Server">
+      <img src="pics/Server.png" style="width:100%" onclick="redirect('server.html');" class="w3-hover-opacity" alt="Server">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/Project-EulerMain.png" style="width:100%" onclick=redirect2() class="w3-hover-opacity" alt="Project-Euler">
+      <img src="pics/Project-EulerMain.png" style="width:100%" onclick="redirect('project-euler.html');" class="w3-hover-opacity" alt="Project-Euler">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/solidWorksLego.png" style="width:100%" onclick=redirect3() class="w3-hover-opacity" alt="SolidWorksLegos">
+      <img src="pics/solidWorksLego.png" style="width:100%" onclick="redirect('SolidWorksLego.html');" class="w3-hover-opacity" alt="SolidWorksLegos">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://raw.githubusercontent.com/avoss19/RoboGUI-Electron/master/docs/window.png"
+      style="width:100%" onclick="redirect('RoboGUI.html');" class="w3-hover-opacity" alt="RoboGUI">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="pics/controllerSupportMain.png" style="width:100%" onclick="redirect('controllerSupport.html');" class="w3-hover-opacity" alt="Controller-Support">
     </div>
   </div>
 </div>
@@ -232,12 +243,8 @@ function myMap()
 }
 
 // Modal Image Gallery
-function redirect1(url){
-  window.open("server.html","_self");
-}
-
-function redirect2(url){
-  window.open("project-euler.html","_self");
+function redirect(url){
+  window.open(url,"_self");
 }
 
 function redirect3(url){
